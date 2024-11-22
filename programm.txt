@@ -1,0 +1,42 @@
+ program Hello;{sdsdsdsdsa   aa dd}
+var a,a1:integer;
+b,b2:boolean;
+c:real;
+d:char;
+begin
+   a:=7;
+   a1:=30;
+  {b:=b2;}
+  a:=((a1/10)+(a-5+a-4));
+  b:=True;
+  b:=a>5;
+  c:=10.5;
+{fff;}
+  if b then
+    a:=10;
+  else
+    b:=false;
+
+  if a>5 then begin
+    b:=False;
+  end
+  else begin
+  b:=True;
+  end;
+
+  whilE b do
+    a:=a+1;
+
+ while a<10 do begin
+    a:=a+7;
+    c:=c*2;
+    end;
+
+   while a<10 do begin
+    if b then a:=-1;
+   else
+    a:=200;
+    c:=c*2;
+    end;
+  
+end. 
